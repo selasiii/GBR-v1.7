@@ -1,0 +1,4 @@
+--installed breeze and spatie
+--added migrations
+--added admin and gent controllers
+--added models
