@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AgentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,3 +31,34 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+// Admin Authentication Routes
+Route::prefix('admin')->group(function () {
+    Route::get('login', [AdminController::class, 'loginForm'])->name('admin.login');
+    Route::post('login', [AdminController::class, 'login']);
+
+});
+
+// Agent Authentication Routes
+Route::prefix('agent')->group(function () {
+    Route::get('login', [AgentController::class, 'loginForm'])->name('agent.login');
+    Route::post('login', [AgentController::class, 'login']);
+
+});
+
+// Admin Routes
+Route::prefix('admin')->middleware(['auth:admin'])->group(function () {
+    Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+    Route::post('logout', [AdminController::class, 'logout'])->name('admin.logout');
+    // Add other admin routes as needed
+
+});
+
+// Agent Routes
+Route::prefix('agent')->middleware(['auth:agent'])->group(function () {
+    Route::get('dashboard', [AgentController::class, 'dashboard'])->name('agent.dashboard');
+    Route::post('logout', [AgentController::class, 'logout'])->name('agent.logout');
+    // Add other agent routes as needed
+
+});

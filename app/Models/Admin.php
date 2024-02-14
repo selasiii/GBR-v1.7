@@ -13,8 +13,6 @@ class Admin extends Authenticatable
     use HasFactory, Notifiable, HasRoles;
 
     protected $fillable = [
-        'admin_id',
-        'role_id',
         'first_name',
         'last_name',
         'email',
