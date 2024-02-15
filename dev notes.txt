@@ -7,3 +7,4 @@
 --added middleware (admin and agent)
 --registered middleware (admin and agent) (http/kernel)
 --added admin and agent auth routes
+--added admin and agent login and dashboard pages
