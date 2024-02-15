@@ -3,6 +3,6 @@
 @section('content')
 
 <div class="row">
-<h6>CONTENT HERE</h6>
+<h6>ADMINISTRATOR DASHBOARD CONTENT HERE</h6>
 </div>
 @endsection

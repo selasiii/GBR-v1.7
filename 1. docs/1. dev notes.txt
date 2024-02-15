@@ -1,0 +1,12 @@
+--✅installed breeze and spatie
+--✅added migrations
+--✅added seeders (admin and agent)
+--✅added  controllers (admin and agent)
+--✅added models (admin and agent)
+--✅added guards and providers(config/auth)
+--✅added middleware (admin and agent)
+--✅registered middleware (admin and agent) (http/kernel)
+--✅added admin and agent auth routes
+--✅added admin and agent login and dashboard pages
+--✅added models and CRUD controllers(Bus, Conductor, Driver, Passenger, Route, Terminal, Ticket, Travel)
+--✅registered routes(Bus, Conductor, Driver, Passenger, Route, Terminal, Ticket, Travel)
