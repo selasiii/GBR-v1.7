@@ -2,7 +2,9 @@
 
 @section('content')
 
-<div class="row">
-<h6>Agent CONTENT HERE</h6>
+<div class="container">
+<h6>Agent DASHBOARD CONTENT HERE</h6>
+
+
 </div>
 @endsection

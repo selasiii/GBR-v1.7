@@ -10,3 +10,35 @@
 --✅added admin and agent login and dashboard pages
 --✅added models and CRUD controllers(Bus, Conductor, Driver, Passenger, Route, Terminal, Ticket, Travel)
 --✅registered routes(Bus, Conductor, Driver, Passenger, Route, Terminal, Ticket, Travel)
+
+
+
+-Dashboard
+
+-User Management
+       --Users
+        ---Admins
+            *create
+            *view(update, delete, assign permission)
+
+        ---Agents
+            *create
+            *view(update, delete, assign permission)
+
+        ---Customers
+            *create
+            *view(update, delete, link ticket)
+       
+       --Permissions
+           ---create
+           ---view(update, delete/suspend)
+
+-Bus Management
+-Terminal Management
+-Driver Management
+-Conductor Management
+-Route Management
+-Trip Schedules
+-Bus Management
+-Ticket Sales Management
+-Passenger Management

@@ -1,0 +1,199 @@
+
+1. **Dashboard:** Overview of key metrics and system status.
+
+2. **Tickets:**
+   - Create Ticket: Allows the admin/agent to create a new support ticket.
+   - View Tickets: Displays a list of all tickets.
+   - Assigned Tickets: Shows tickets assigned to the logged-in admin/agent.
+   - Closed Tickets: Displays a list of closed or resolved tickets.
+
+3. **Categories:** Manage ticket categories for better organization.
+   - Add Category: Allows adding new categories.
+   - View Categories: Displays a list of existing categories.
+
+   6. **Role and Permission Management:**
+   - View a list of all roles and permissions.
+   - View details of a specific role or permission.
+   - Update roles and their associated permissions.
+   - Create new roles with specific permissions.
+   - Delete unnecessary roles.
+
+   --. **Role Assignment:**
+    - Assign roles and permissions to other admins and agents.
+    - Control access levels for different users.
+
+
+
+5. **User Management:**
+   - Create new agents or admins.
+   - View a list of all agents and admins.
+   - View details of a specific user.
+   - Update user information (password, roles, etc.).
+    - Suspend or delete user accounts if needed (customers included).
+    -Assign roles/permissions
+
+6. **Customers:** Manage customer information and accounts.
+    - View a list of all customers.
+   - View details of a specific customer.
+   - Update customer information if necessary.
+   - Link tickets to specific customers.
+
+7. **Security and Authorization:**
+   - Manage permissions and roles for agents and admins.
+   - Ensure the overall security of the system.
+
+8. **Settings:**
+   - General Settings: Configure application-wide settings.
+   - Email Settings: Manage email notifications and configurations.
+   - Ticketing System Preferences: Configure preferences specific to the ticketing system.
+       - Adjust parameters for ticket pricing, discounts, etc.
+
+
+9. **Logout:** Allows admins/agents to log out of their accounts.
+
+
+
+### Extended CRUD Permissions:
+
+10. **Bus Management:**
+   - Create new bus records.
+   - View a list of all buses.
+   - View details of a specific bus.
+   - Update bus information (capacity, model, etc.).
+   - Delete unnecessary bus records.
+
+11. **Terminal Management:**
+   - Create new terminal records.
+   - View a list of all terminals.
+   - View details of a specific terminal.
+   - Update terminal information (location, facilities, etc.).
+   - Delete unnecessary terminal records.
+
+12. **Driver Management:**
+   - Create new driver records.
+   - View a list of all drivers.
+   - View details of a specific driver.
+   - Update driver information (name, contact, etc.).
+   - Delete unnecessary driver records.
+
+13. **Conductor Management:**
+   - Create new conductor records.
+   - View a list of all conductors.
+   - View details of a specific conductor.
+   - Update conductor information (name, contact, etc.).
+   - Delete unnecessary conductor records.
+
+14. **Route Management:**
+   - Create new routes for buses.
+   - View a list of all routes.
+   - View details of a specific route.
+   - Update route information (stops, distance, etc.).
+   - Delete unnecessary route records.
+
+
+
+15. **Trip Scheduling:**
+   - Schedule trips for buses on specific routes.
+   - View a list of all scheduled trips.
+   - Update trip details (time, date, etc.).
+   - Set departure and arrival times for each trip.
+   - Assign buses, drivers, and conductors to specific trips.
+
+
+16. **Ticket Sales:**
+   - Sell tickets for scheduled trips.
+   - View a list of all ticket sales.
+   - View details of a specific ticket sale.
+   - Refund or modify ticket sales if required.
+
+   -- **Ticket Reservations:**
+   - Allow passengers to reserve tickets for future trips.
+
+
+17. **Passenger Management:**
+   - Create new passenger records.
+   - View a list of all passengers.
+   - View details of a specific passenger.
+   - Update passenger information (name, contact, etc.).
+   - Delete unnecessary passenger records.
+
+
+
+18. **Reports and Analytics :**
+   - Access detailed reports on bus utilization, trip efficiency, etc.
+   - Use analytics to optimize bus routes and schedules.
+
+19. **Complaints and Feedback:**
+    - Receive and manage passenger complaints.
+    - Review and respond to feedback.
+    - Track the resolution status of complaints.
+
+20. **Maintenance Requests:**
+    - Receive and manage maintenance requests for buses.
+    - Schedule and track maintenance activities.
+
+21. **Notification and Alerts:**
+    - Configure system notifications and alerts.
+    - Receive alerts for critical events (e.g., low ticket stock, maintenance overdue).
+
+22. **Financial Transactions:**
+    - View financial transactions related to ticket sales.
+    - Generate financial reports for auditing purposes.
+
+
+
+
+
+
+
+### Additional Features:
+
+
+
+1. **Real-time Tracking:**
+   - Integrate GPS tracking for buses.
+   - Allow passengers to track the real-time location of their bus.
+
+2. **Mobile Ticketing:**
+   - Implement a mobile ticketing system with QR codes.
+   - Passengers can use their smartphones as tickets.
+
+3. **Online Booking Platform:**
+   - Develop a user-friendly website or mobile app for online ticket booking.
+   - Provide a secure payment gateway for online transactions.
+
+
+4. **Trip Status Updates:**
+   - Send notifications to passengers about trip delays, cancellations, or rescheduling.
+
+5. **Discounts and Promotions:**
+   - Implement discount codes for promotions.
+   - Offer special discounts for specific routes or events.
+
+6. **Feedback and Ratings:**
+   - Collect feedback and ratings from passengers after each trip.
+   - Use feedback to improve services and identify areas for enhancement.
+
+7. **Integration with External Systems:**
+    - Integrate with external systems, such as transportation hubs or travel agencies.
+
+8. **Accessibility Features:**
+    - Ensure the system is accessible to people with disabilities.
+    - Provide alternative formats for information and services.
+
+9. **Multilingual Support:**
+    - Support multiple languages to cater to a diverse user base.
+
+10. **Customer Support:**
+    - Offer a customer support system for query resolution and assistance.
+
+11. **Reporting and Analytics:**
+    - Generate reports on ticket sales, passenger demographics, and trip performance.
+    - Use analytics to make data-driven decisions for optimizing operations.
+
+12. **Emergency Response:**
+    - Implement an emergency response system in case of accidents or unforeseen events.
+
+13. **Environmental Impact:**
+    - Include features or information on the environmental impact of bus travel.
+

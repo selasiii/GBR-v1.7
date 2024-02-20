@@ -2,7 +2,9 @@
 
 @section('content')
 
-<div class="row">
+<div class="container">
 <h6>ADMINISTRATOR DASHBOARD CONTENT HERE</h6>
+
+
 </div>
 @endsection
