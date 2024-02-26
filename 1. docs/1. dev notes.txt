@@ -10,7 +10,7 @@
 --✅added admin and agent login and dashboard pages
 --✅added models and CRUD controllers(Bus, Conductor, Driver, Passenger, Route, Terminal, Ticket, Travel)
 --✅registered routes(Bus, Conductor, Driver, Passenger, Route, Terminal, Ticket, Travel)
-
+--✅added template assets
 
 
 -Dashboard
